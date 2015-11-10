@@ -1,0 +1,39 @@
+body {
+	background-image: url("Images/background.jpg");
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	height: 85px;
+	text-align: center;
+}
+
+h2 {
+	font-family: Georgia;
+	font-size: 70px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+div#memory_board{
+	background:#CCC;
+	border:#999 1px solid;
+	width:810px;
+	height:300px;
+	padding:24px;
+	padding-top:40px;
+	margin:0px auto;
+}
+div#memory_board > div{
+	background: url("Images/background.jpg") no-repeat;
+	border:#000 2px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
